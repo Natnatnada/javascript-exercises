@@ -1,5 +1,5 @@
 const repeatString = function(string, num) {
-// return string.repeat(num)
+// built-in .repeat() method  return string.repeat(num)
     //declaramos let vacio para el string repetido
     let resultRepeat = "";
     //returns ERROR with negative numbers
