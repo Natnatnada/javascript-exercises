@@ -5,7 +5,9 @@
 // };
 
 const removeFromArray = function (array, ...args) {
-    //hacemos un filter para que elimine el elemento deleted del array, funciona pero con un solo argumento
+//The rest parameter (...) allows a function to treat an indefinite number of arguments as an array:
+
+    //hacemos un filter para que elimine el elemento deleted del array
     const result = array.filter(arr => !args.includes(arr));
     return result;
 };
